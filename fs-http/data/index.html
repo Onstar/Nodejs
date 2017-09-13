@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<!--
+		当浏览器接收到当前的 HTML 文件内容时，会从上到下依次解析
+		在解析的过程中如果发现：
+			具有 href 的 link
+			具有 src 的 script
+			具有 src 的 img
+		等具有外链的要在内部使用的资源。
+		这个时候浏览器会对该资源指向的链接自动发起请求。
+	-->
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<h1>Hello World!!!</h1>
+		这是首页
+	</body>
+	<img src="img/img01" alt="" />
+</html>
